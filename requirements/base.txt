@@ -24,3 +24,7 @@ networkx
 jinja2
 plotly
 python-louvain 
+
+# files
+duckdb
+# -r database.txt
