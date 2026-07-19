@@ -1,0 +1,1 @@
+# InquirerPy quick-log

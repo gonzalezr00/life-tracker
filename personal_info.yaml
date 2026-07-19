@@ -1,0 +1,83 @@
+base_info:
+  - name: John Doe
+    age: 30
+    employment: 
+      - employer: DataCorp
+        position: Data Scientist
+        start_date: 2021-01-01
+        end_date: null
+        contract_type: full-time
+    nationality:
+      - USA
+      - Canada
+    tax_info:
+      - residence:
+        - USA
+        - Canada
+        marital_status: single
+
+
+income_sources:
+  - source: salary
+    amount: 80000
+    currency: USD
+  - source: freelance
+    amount: 20000
+    currency: USD
+
+
+financial_accounts:
+  - entity: bank
+    name: BNP
+    type: savings
+    balance: 5000
+    currency: EUR
+  - entity: bank
+    name: KBC
+    type: savings
+    balance: 5000
+    currency: EUR
+  - entity: bank
+    name: Bancolombia
+    type: savings
+    balance: 5000
+    currency: COP
+  - entity: broker
+    name: IBKR
+    type: investment
+    balance: 5000
+    currency: EUR
+  - entity: bolero
+    name: IBKR
+    type: investment
+    balance: 5000
+    currency: EUR
+  
+assets:
+  - type: real estate
+    description: Apartment in New York
+    value: 300000
+    currency: USD
+  - type: vehicle
+    description: Tesla Model 3
+    value: 35000
+    currency: USD
+  
+liabilities:
+  - type: mortgage
+    description: Home mortgage
+    monthly_amount: 200000
+    currency: USD
+    end_date: 2041-01-01
+
+goals:
+  - description: Save for retirement
+    target_amount: 1000000
+    currency: USD
+    target_date: 2051-01-01
+    priority: high
+  - description: Buy a vacation home
+    target_amount: 500000
+    currency: USD
+    target_date: 2031-01-01
+    priority: medium
